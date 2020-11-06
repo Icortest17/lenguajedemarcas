@@ -1,0 +1,58 @@
+/*Aqui esta lo relaccionado con los Titulos */
+
+h1,h2 {text-align: center;}
+
+/*Aqui esta lo relaccionado con los Colores de Fondo */
+
+header {background-color:blueviolet;}
+
+body {background-color: hotpink;}
+
+footer {background-color: blue;}
+
+/*Aqui esta lo relaccionado con las animaciones y los enlaces */
+
+img:hover{transform: scale(1.5);}
+
+img {display: block;
+    margin-top: 10px;}
+
+a:hover {color: burlywood;}
+
+a {text-decoration: none;
+    color: white;
+    font-size:25px;
+    margin-top:25px;}
+
+/*Aqui esta lo relaccionado con los parrafos*/
+
+.parrafos {background-color: grey;
+    width: 48%;
+    border: solid black;
+    display: inline-block;
+    margin-bottom:5px;
+    padding:10px;
+    font-family:Arial, Helvetica, sans-serif;}
+
+#parrafo2 {float: right;
+    height:1062px;}
+
+#parrafo3 {width: 100%;
+    text-transform: capitalize;}
+
+/*Aqui esta lo relaccionado con las listas*/
+ul {list-style-type: square;}
+ol {list-style-type: lower-greek;}
+
+/*Aqui esta lo relaccionado con la Tabla*/
+
+table{border: solid green;
+    }
+
+th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-collapse: collapse;}
+
